@@ -163,6 +163,6 @@ int freqPulse()
 
     	TPM0_4.period(freq_data_rate[i]);   
     	TPM0_4 = 0;
-		i++
+	i++;
 	}
 };
